@@ -1,11 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
 html {
     scroll-behavior: smooth;
 }
+
 /*Header*/
 .header {
     height: 85vh;
@@ -35,7 +31,6 @@ header .header-yazi {
     font-size: 10vh;
 }
 
-
 /*----Hizmetler Section----*/
 .hizmetler {
     background: #fff;
@@ -57,7 +52,6 @@ header .header-yazi {
 .hizmetler .card p {
     font-size: 10px;    
 }
-
 
 /*----Hakkimizda Section----*/
 .hakkimizda {
@@ -96,10 +90,6 @@ header .header-yazi {
     text-decoration: none;
     color: #6c508b;
 }
-
-
-
-
 
 /*----Yorumlar Section----*/
 .yorumlar {
@@ -140,9 +130,6 @@ header .header-yazi {
     border-left: 1px solid #3c3a47;
 }
 
-
-
-
 /*----Footer----*/
 .footer-top {
     background: #3c3a47;
@@ -182,7 +169,6 @@ footer .nav-item a:hover{
 .footer-social-content a:hover span{
     color: #d5d3e0;
 }
-
 .copyright {
     height: 5vh;
     background: #373541;
@@ -192,6 +178,7 @@ footer .nav-item a:hover{
     padding-top: 7px;
 }
 
+/*TOP BUTTON*/
 .top-button {
     position: fixed;
     bottom: 5%;
@@ -208,4 +195,11 @@ footer .nav-item a:hover{
 }
 .top-button:hover {
     color: aqua;
+}
+
+/*MEDIA*/ 
+@media (max-width : 768px) {
+    .hizmetler .card {
+        margin: 0 auto !important;
+    }
 }
